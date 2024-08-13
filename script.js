@@ -14,7 +14,7 @@ app.get('/', (req, res) => {
 
 // Route to handle form submission
 app.post('/submit', async (req, res) => {
-    const recaptchaSecret = '6LfPJCYqAAAAANPQ9Iz_64lgwmdakbM63rdCPECZ';
+    const recaptchaSecret = '';
     const recaptchaResponse = req.body['g-recaptcha-response'];
     
     // Verify reCAPTCHA
